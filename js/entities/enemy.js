@@ -40,7 +40,7 @@ game.EnemyEntity = me.Entity.extend({
         //this.body.setFriction(0.4, 0)
         this.body.force.set(1, 0)
 
-        // setam tipul de coliziune pentru a recunaste acest tip de obiect
+        // setam tipul de coliziune pentru a recunoaste acest tip de obiect
         this.body.collisionType = me.collision.types.ENEMY_OBJECT
 
         // nu vrem sa actualizam personajul cat timp nu este vizibil

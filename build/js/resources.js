@@ -70,6 +70,11 @@ game.resources = [
         "src": "data/map/game02.tmx"
     },
     {
+        "name": "mygame01",
+        "type": "tmx",
+        "src": "data/map/mygame01.tmx"
+    },
+    {
         "name": "mymap",
         "type": "tmx",
         "src": "data/map/mymap.tmx"
@@ -83,6 +88,11 @@ game.resources = [
         "name": "game01_level_tiles",
         "type": "tsx",
         "src": "data/map/game01_level_tiles.tsx"
+    },
+    {
+        "name": "mygame01_level_tiles",
+        "type": "tsx",
+        "src": "data/map/mygame01_level_tiles.tsx"
     },
     {
         "name": "PressStart2P",

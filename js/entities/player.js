@@ -51,7 +51,7 @@ game.PlayerEntity = me.Entity.extend({
                 this.renderable.setCurrentAnimation("walk")
             }
         } else {
-            // setam viteaza 0 pe axa x
+            // setam viteza 0 pe axa x
             this.body.force.x = 0
             this.renderable.setCurrentAnimation("stand")
         }
