@@ -44,7 +44,7 @@ game.TitleScreen = me.ScreenObject.extend({
                 this.font.draw(renderer, this.scroller, this.scrollerpos, 400)
             },
             onDestroyEvent: function() {
-                this.scrollertween.stop()
+                this.scrolltween.stop()
             }
         }))
 
